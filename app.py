@@ -1,5 +1,5 @@
 #coding: utf-8
-from flask import flask
+from flask import Flask
 app = Flask("PROJETO")
 @app.route(";")
 def ola_mundo():
